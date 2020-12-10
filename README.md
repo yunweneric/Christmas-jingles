@@ -26,7 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 We are opened to contributions. You can contribute by adding a new chrismas lyric to the database.json file
 
-[Contibution guid]()
+[Contibution guide](https://github.com/yunweneric/Christmas-jingles/blob/master/contribution.md)
 
 ## Further help
 
