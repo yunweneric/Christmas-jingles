@@ -36,4 +36,6 @@ Sample commit message:
 ## 6. If you are familiar with git and github, you can create a separate branch and contribute as well
 
 
-# Thank you and Merry Christmass!
+# Thank you and Merry Christmass and Happy New Year!
+
+![Christmas tree](https://github.com/yunweneric/Christmas-jingles/blob/master/src/assets/images/wallpaper.png?raw=true)
