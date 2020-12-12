@@ -1,7 +1,7 @@
 # To contribute to the API (database.json);
 ## 1. Fork the repo
 ## 2. Clone the repo to your local computer
-## 3. Add your data to the json file in this order
+## 3. Add your data to the json file called 'database.json' in this order
 
 ```
 [
