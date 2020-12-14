@@ -54,5 +54,174 @@
     "Me and my drum",
     "Me and my drum"
   ]
+},
+
+{
+  "id": 3,
+  "title": "O Little Town Of Bethlehem",
+  "author": "Philips Brooks",
+  "lyrics": [
+    "Oh little town of Bethlehem, how still we see thee lie",
+    "Above thy deep and dreamless sleep the silent stars go by",
+    "Yet in thy dark streets shineth, the everlasting light",
+   "The hopes and fears of all the years are met in thee tonight.",
+
+   "For Christ is born of Mary, and gathered all above",
+    "While mortals sleep the angels keep their watch of wondering love",
+    "Oh morning stars together, proclaim thy holy birth.",
+    "And praises sing to God the king, and peace to men on earth.",
+
+    "Oh little town of Bethlehem, how still we see thee lie",
+    "Above thy deep and dreamless sleep the silent stars go by",
+    "Yet in thy dark streets shineth, the everlasting light",
+     "The hopes and fears of all the years are met in thee tonight."
+  ]
+},
+{
+  "id": 4,
+  "title": "Angels,from the realms of Glory ",
+  "author": " James Montgomery",
+  "lyrics": [
+    "Angels from the realms of glory,",
+    "Wing your flight o'er all the earth;",
+    "Ye who sang creation's story,",
+    "Now proclaim Messiah's birth",
+    "Come and worship,",
+    "Come and worship,",
+    "Worship Christ, the newborn King!",
+
+"Shepherds, in the fields abiding",
+"Watching o'er your flocks by night",
+"God with man is now residing",
+"Yonder shines the infant Light",
+"Come and worship",
+"Come and worship",
+"Worship Christ, the newborn King!",
+
+"Sages, leave your contemplations",
+"Brighter visions beam afar",
+"Seek the great desire of nations",
+"Ye have seen His natal star",
+"Come and worship",
+"Come and worship",
+"Worship Christ, the newborn King!",
+
+"Saints before the altar bending",
+"Watching long in hope and fear",
+"Suddenly the Lord, descending",
+"In His temple shall appear",
+"Come and worship",
+"Come and worship",
+"Worship Christ, the newborn King!"
+
+  ]
+},
+
+{
+  "id": 5,
+  "title": " I Heard the Bells on Christmas Day",
+  "author": " Henry Wadsworth Longfellow ",
+  "lyrics": [
+
+    "I heard the bells on Christmas day",
+   "Their old familiar carols play",
+    "And mild and sweet their songs repeat",
+    "Of peace on earth good will to men",
+    "And the bells are ringing (peace on earth)",
+    "Like a choir they're singing (peace on earth)",
+    "In my heart I hear them (peace on earth)",
+    "Peace on earth, good will to men",
+    "And in despair I bowed my head",
+    "There is no peace on earth I said",
+    "For hate is strong and mocks the song",
+    "Of peace on earth, good will to men",
+    "But the bells are ringing (peace on earth)",
+    "Like a choir singing (peace on earth)",
+    "Does anybody hear them? (peace on earth)",
+    "Peace on earth, good will to men",
+    "Then rang the bells more loud and deep",
+    "God is not dead, nor does he sleep (peace on earth, peace on earth)",
+    "The wrong shall fail, the right prevail",
+    "With peace on earth, good will to men",
+    "Then ringing singing on its way",
+    "The world revolved from night to day",
+    "A voice, a chime, a chant sublime",
+    "Of peace on earth, good will to men",
+    "And the bells they're ringing (peace on earth)",
+    "Like a choir they're singing (peace on earth)",
+    "And with our hearts we'll hear them (peace on earth)",
+    "Peace on earth, good will to men",
+    "Do you hear the bells they're ringing? (peace on earth)",
+    "The life the angels singing (peace on earth)",
+    "Open up your heart and hear them (peace on earth)",
+    "Peace on earth, good will to men",
+    "Peace on earth, peace on earth",
+    "Peace on earth, Good will to men"
+
+  ]
+},
+{
+  "id": 6,
+  "title": "Go Tell It on the Mountain",
+  "author": "John Wesley Work",
+  "lyric": [
+
+    "Go tell it on the mountain",
+    "Over the hills and everywhere",
+    "Go tell it on the mountain",
+    "Our Jesus Christ is born",
+    "When I was a seeker",
+    "I sought both night and day",
+    "I asked the Lord to help me",
+    "And he showed me the way",
+    "Go tell it on the mountain",
+    "Over the hills and everywhere",
+    "Go tell it on the mountain",
+    "Our Jesus Christ is born",
+    "He made me a watchman",
+    "Upon a city wall",
+    "And if I am a Christian",
+    "I am the least of all",
+    "Go tell it on the mountain",
+    "Over the hills and everywhere",
+    "Go tell it on the mountain",
+    "Our Jesus Christ is born"
+  ]
+},
+
+{
+  "id": 7,
+  "title": "What Child is This?",
+  "author": "William Chatterton Dix",
+  "lyric": [
+
+    "What child is this",
+    " Who's laid to rest",
+    "On Mary's lap is Sleeping?",
+    "Whom angels greet with anthems sweet",
+    " While shepherd's watch are keeping",
+    "This this is Christ the King",
+    "Whom shepherds guard and angels sing",
+    "Haste! haste!",
+    " To bring him, Lord!",
+    "The babe, the son of Mary",
+    "Why lies He in such mean estate",
+    "Where ox and ass are feeding?",
+    "Good Christians, fear, for sinners here",
+    "The silent Word is pleading",
+    "Nails, spear shall pierce Him through",
+    "The cross be borne for me, for you",
+    " Hail, hail the Word made flesh",
+    "The Babe, the Son of Mary",
+    "So bring Him incense, gold and myrrh",
+    "Come peasant, king to own Him",
+    "The King of kings salvation brings",
+    "Let loving heart enthrone Him",
+    "Raise, raise a song on high",
+    "The virgin sings her lullaby",
+    " Joy, joy for Christ is born",
+    "The Babe, the Son of Mary"
+  ]
 }
+
 ]
