@@ -8,6 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { LyricOnlyComponent } from './lyric-only/lyric-only.component';
 import { YoutubeAndLyricComponent } from './youtube-and-lyric/youtube-and-lyric.component';
 import { YoutubeonlyComponent } from './youtubeonly/youtubeonly.component';
+import { PnfComponent } from './pnf/pnf.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { YoutubeonlyComponent } from './youtubeonly/youtubeonly.component';
     FooterComponent,
     LyricOnlyComponent,
     YoutubeAndLyricComponent,
-    YoutubeonlyComponent
+    YoutubeonlyComponent,
+    PnfComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,28 @@
+/* app-header{} */
+.container-fluid{
+  background: linear-gradient(rgba(0, 0, 0, 0.681), rgba(0, 0, 0, 0.686)), url('/assets/images/snowman-1882635_1920.jpg');
+  background-size: cover;
+  padding: 20px;
+  /* height: 91vh; */
+}
+
+.container{
+  padding: 100px 0 60px 0;
+  scroll-behavior: smooth;
+}
+.col-sm{
+  margin: 20px 10px;
+  background: linear-gradient(rgba(4, 138, 44, 0.582), rgba(197, 66, 68, 0.767)), url('https://cdn.pixabay.com/photo/2012/02/23/08/42/christmas-bauble-15738_960_720.jpg');
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+  border-radius: 3px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+
+/* .heading{
+  color: #fff;
+} */
