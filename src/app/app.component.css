@@ -1,26 +1,24 @@
-app-header{
-  height: 5vh;
-}
+/* app-header{} */
 .container-fluid{
-  background: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.786)), url('../assets/images/decorating-christmas-tree-2999722_1280.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.681), rgba(0, 0, 0, 0.686)), url('../assets/images/snowman-1882635_1920.jpg');
   background-size: cover;
-  height: 91vh;
+  padding: 20px;
+  /* height: 91vh; */
 }
 
 .container{
   /* display: flex; */
   padding: 150px 0 100px 0;
-  background-color: red;
+  /* background-color: red; */
+}
+.col-sm{
+  margin: 20px 10px;
+  background-color: #fff;
+  padding: 100px;
+  text-align: center;
+  border-radius: 3px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
-app-lyric-only, app-youtube-and-lyric, app-youtubeonly{
-  /* padding: 150px; */
-  /* background-color: #fff; */
 
-  }
-app-youtube-and-lyric{
-  background: #000;
-}
-app-youtubeonly{
-  background: #222eee;
-}
