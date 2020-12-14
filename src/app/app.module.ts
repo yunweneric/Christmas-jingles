@@ -10,6 +10,7 @@ import { YoutubeAndLyricComponent } from './youtube-and-lyric/youtube-and-lyric.
 import { YoutubeonlyComponent } from './youtubeonly/youtubeonly.component';
 import { PnfComponent } from './pnf/pnf.component';
 import { HomeComponent } from './home/home.component';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,9 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LyricServiceService } from '../lyric-service.service'
 
 @Component({
   selector: 'app-lyric-only',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lyric-only.component.css']
 })
 export class LyricOnlyComponent implements OnInit {
+  collection: any
 
-  constructor() { }
+  constructor(private lyric: LyricServiceService) { }
 
   ngOnInit(): void {
+    this.lyric.getdata().subscribe(data => {
+      this.collection = data;
+      console.log(this.collection)
+    })
+
   }
 
 }
