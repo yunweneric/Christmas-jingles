@@ -1,15 +1,306 @@
-.bg-success{
-  background: #00873E !important;
-  color: #fff !important;
+:root {
+  --main-black: #222f3e;
+  --main-white: #fff;
+  --main-text: #8395a7;
+  --primary-color: #feca57;
 }
-/* nav{
-  color: #fff !important;
+header {
+  width: 100vw;
+  height: 100px;
+  background-color: #111010;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: .3rem 4rem 0 4rem!important;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: 2;
 }
-
-.navbar-toggler, .navbar-toggler-icon{
-  border-color: #fff;
+.brand-logo {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
 }
-.navbar-toggler-icon{
-  color: #ffffff;
-
+header nav {
+  width: auto;
+  height: 60px !important;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ul {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 60px !important;
+  margin: 0 !important;
+}
+li {
+  list-style-type: none;
+  width: 120px;
+  margin: 0 1rem !important;
+  display: grid;
+  justify-content: center;
+  align-content: center !important;
+  text-align: center;
+  border-radius: 15px;
+}
+li a {
+  list-style-type: none;
+  width: 140px;
+  background-color: transparent;
+  display: grid;
+  justify-content: center;
+  align-content: center !important;
+  text-align: center;
+  border-radius: 15px;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding-top: .7rem;
+}
+li a:hover {
+  /* background-color: #000; */
+  text-decoration:  none;
+}
+li a::after {
+  content: '';
+  display: block;
+  width: 140px;
+  height: 79px;
+  border-radius: 15px;
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+  transform: scale(0);
+  animation: link-hover-animation .5s linear;
+  background-color: #feca57;
+  transition-duration: .5s;
+}
+li a:hover::after {
+  content: '';
+  display: block;
+  width: 140px;
+  height: 79px;
+  border-radius: 15px;
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+  transform: scale(1);
+  animation: link-hover-animation .5s linear;
+  background-color: rgba(255, 255, 255, 0.102);
+  transition-duration: .5s;
+}
+li a.active {
+  background-color: rgba(255, 255, 255, 0.102);
+  color: #feca57;
+}
+li a.active:hover::after {
+  background-color: transparent;
+  transition-duration: .5s;
+}
+li a.active::after {
+  background-color: transparent;
+  transition-duration: .5s;
+}
+li a img {
+  margin-bottom: .3rem;
+  height: 20px;
+}
+.search-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.search-icon img {
+  height: 30px;
+  cursor: pointer;
+  margin-right: .5rem;
+  transition-duration: .3s;
+  position: relative;
+  transform: translate(200%);
+}
+/* .search-icon img:hover {
+  position: relative;
+  transform: scale(1.1);
+  transition-duration: .3s;
 } */
+.search-icon .p {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #8395a7;
+  position: relative;
+  transform: scaleX(0);
+  transition-duration: .3s;
+}
+.search-icon:hover img {
+  transform: translate(0%);
+  transition-duration: .3s;
+}
+.search-icon:hover .p {
+  transform: scaleX(1);
+  transition-duration: .3s;
+}
+.hamburger {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition-duration: .3s;
+  /* padding: .5rem; */
+  display: none;
+}
+.hamburger:hover {
+  position: relative;
+  transform: scale(1.1);
+  transition-duration: .3s;
+}
+.hamburger:hover span {
+  margin-bottom: 7px;
+  transition-duration: .3s;
+}
+.hamburger span {
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: #fff;
+  transition-duration: .3s;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    width: 100vw;
+    height: 80px;
+    padding: 0rem 2rem !important;
+    top: 0;
+  }
+  .hamburger {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    align-content: center;
+  }
+  .brand-logo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .brand-logo p {
+    display: none;
+  }
+  .brand-logo img {
+    display: block;
+  }
+  header nav {
+    width: auto;
+    height: 60px !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 60px !important;
+    margin: 0 !important;
+  }
+  li {
+    list-style-type: none;
+    width: 120px;
+    margin: 0 1rem !important;
+    display: grid;
+    justify-content: center;
+    align-content: center !important;
+    text-align: center;
+    border-radius: 15px;
+  }
+  li a {
+    list-style-type: none;
+    width: 140px;
+    background-color: transparent;
+    display: grid;
+    justify-content: center;
+    align-content: center !important;
+    text-align: center;
+    border-radius: 15px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: .7rem;
+  }
+  li a:hover {
+    /* background-color: #000; */
+    text-decoration:  none;
+  }
+  li a::after {
+    content: '';
+    display: block;
+    width: 140px;
+    height: 79px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    transform: scale(0);
+    animation: link-hover-animation .5s linear;
+    background-color: #feca57;
+    transition-duration: .5s;
+  }
+  li a:hover::after {
+    content: '';
+    display: block;
+    width: 140px;
+    height: 79px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    transform: scale(1);
+    animation: link-hover-animation .5s linear;
+    background-color: rgba(255, 255, 255, 0.102);
+    transition-duration: .5s;
+  }
+  li a.active {
+    background-color: rgba(255, 255, 255, 0.102);
+    color: #feca57;
+  }
+  li a.active:hover::after {
+    background-color: transparent;
+    transition-duration: .5s;
+  }
+  li a.active::after {
+    background-color: transparent;
+    transition-duration: .5s;
+  }
+  li a img {
+    margin-bottom: .3rem;
+    height: 20px;
+  }
+  .search-icon img {
+    height: 30px;
+    cursor: pointer;
+  }
+}
+
+@keyframes link-hover-animation {
+  0% {
+    transform: scale(0);
+    border-radius: 50%;
+    transition-duration: .5s;
+  }
+  100% {
+    transform: scale(1);
+    border-radius: 15%;
+    transition-duration: .5s;
+  }
+}
