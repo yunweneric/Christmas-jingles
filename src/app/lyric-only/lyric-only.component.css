@@ -1,0 +1,13 @@
+.all{
+  background-color: #fff;
+}
+button{
+   margin: 5px 20px;
+  padding: 5px 100px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+button:nth-child(2n){
+  background-color:#c54245;
+}

@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #111010;
+    text-align: center;
+    position: fixed;
+    top: 100%;
+    transform: translateY(-100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+footer p {
+    margin: 0 !important;
+    color: #8395a7;
+}
