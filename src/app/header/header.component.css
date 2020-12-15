@@ -25,21 +25,21 @@ header {
   color: #fff;
   text-transform: uppercase;
 }
-header nav {
+header .desktop-nav {
   width: auto;
   height: 60px !important;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
-ul {
+.desktop-nav ul {
   display: flex;
   align-items: center;
   width: auto;
   height: 60px !important;
   margin: 0 !important;
 }
-li {
+.desktop-nav li {
   list-style-type: none;
   width: 120px;
   margin: 0 1rem !important;
@@ -49,7 +49,7 @@ li {
   text-align: center;
   border-radius: 15px;
 }
-li a {
+.desktop-nav li a {
   list-style-type: none;
   width: 140px;
   background-color: transparent;
@@ -64,11 +64,10 @@ li a {
   font-weight: 700;
   padding-top: .7rem;
 }
-li a:hover {
-  /* background-color: #000; */
+.desktop-nav li a:hover {
   text-decoration:  none;
 }
-li a::after {
+.desktop-nav li a::after {
   content: '';
   display: block;
   width: 140px;
@@ -82,7 +81,7 @@ li a::after {
   background-color: #feca57;
   transition-duration: .5s;
 }
-li a:hover::after {
+.desktop-nav li a:hover::after {
   content: '';
   display: block;
   width: 140px;
@@ -96,19 +95,19 @@ li a:hover::after {
   background-color: rgba(255, 255, 255, 0.102);
   transition-duration: .5s;
 }
-li a.active {
+.desktop-nav li a.active {
   background-color: rgba(255, 255, 255, 0.102);
   color: #feca57;
 }
-li a.active:hover::after {
+.desktop-nav li a.active:hover::after {
   background-color: transparent;
   transition-duration: .5s;
 }
-li a.active::after {
+.desktop-nav li a.active::after {
   background-color: transparent;
   transition-duration: .5s;
 }
-li a img {
+.desktop-nav li a img {
   margin-bottom: .3rem;
   height: 20px;
 }
@@ -116,6 +115,9 @@ li a img {
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+.search-icon .p.active {
+  background-color: red;
 }
 .search-icon img {
   height: 30px;
@@ -152,7 +154,6 @@ li a img {
   height: 40px;
   cursor: pointer;
   transition-duration: .3s;
-  /* padding: .5rem; */
   display: none;
 }
 .hamburger:hover {
@@ -167,11 +168,31 @@ li a img {
 .hamburger span {
   display: block;
   width: 40px;
-  height: 5px;
-  margin-bottom: 5px;
+  height: 3px;
+  margin-bottom: 7px;
   border-radius: 10px;
   background-color: #fff;
   transition-duration: .3s;
+}
+.hamburger .ham-1.active {
+  transform: rotate(45deg);
+  margin-top: 25%;
+  transition-duration: .3s;
+}
+.hamburger .ham-2.active {
+  transform: scale(0);
+  opacity: 0;
+  transition-duration: .3s;
+}
+.hamburger .ham-3.active {
+  transform: rotate(-45deg);
+  margin-top: -20px;
+  transition-duration: .3s;
+}
+
+/* Styling the mobile navigator */
+.mobile-nav {
+  display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -206,14 +227,14 @@ li a img {
     transform: translateX(-50%);
     display: none;
   }
-  ul {
+  .desktop-nav ul {
     display: flex;
     align-items: center;
     width: auto;
     height: 60px !important;
     margin: 0 !important;
   }
-  li {
+  .desktop-nav li {
     list-style-type: none;
     width: 120px;
     margin: 0 1rem !important;
@@ -223,7 +244,7 @@ li a img {
     text-align: center;
     border-radius: 15px;
   }
-  li a {
+  .desktop-nav li a {
     list-style-type: none;
     width: 140px;
     background-color: transparent;
@@ -238,11 +259,11 @@ li a img {
     font-weight: 700;
     padding-top: .7rem;
   }
-  li a:hover {
+  .desktop-nav li a:hover {
     /* background-color: #000; */
     text-decoration:  none;
   }
-  li a::after {
+  .desktop-nav li a::after {
     content: '';
     display: block;
     width: 140px;
@@ -256,7 +277,7 @@ li a img {
     background-color: #feca57;
     transition-duration: .5s;
   }
-  li a:hover::after {
+  .desktop-nav li a:hover::after {
     content: '';
     display: block;
     width: 140px;
@@ -270,25 +291,75 @@ li a img {
     background-color: rgba(255, 255, 255, 0.102);
     transition-duration: .5s;
   }
-  li a.active {
+  .desktop-nav li a.active {
     background-color: rgba(255, 255, 255, 0.102);
     color: #feca57;
   }
-  li a.active:hover::after {
+  .desktop-nav li a.active:hover::after {
     background-color: transparent;
     transition-duration: .5s;
   }
-  li a.active::after {
+  .desktop-nav li a.active::after {
     background-color: transparent;
     transition-duration: .5s;
   }
-  li a img {
+  .desktop-nav li a img {
     margin-bottom: .3rem;
     height: 20px;
   }
   .search-icon img {
     height: 30px;
     cursor: pointer;
+  }
+  .mobile-nav {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    display: grid;
+    position: fixed;
+    top: 80px;
+    z-index: 3;
+    background-color: #111010;
+    transform: translateX(-100%);
+    transition-duration: .3s;
+  }
+  .mobile-nav ul {
+    width: 100vw;
+    height: auto !important;
+    display: grid;
+    align-content: center;
+    padding: 0 !important;
+  }
+  .mobile-nav ul li {
+    text-align: center;
+    width: 100vw;
+    height: 100px !important;
+    border-radius: 0px !important;
+    align-items: center !important;
+    padding-top: 1.5rem;
+  }
+  .mobile-nav img {
+    width: 30px;
+    margin-bottom: .3rem;
+  }
+  .mobile-nav a {
+    font-weight: 700;
+    color: #fff;
+    width: 100vw;
+    display: block;
+    padding: 1rem 0 .1rem 0;
+    transition-duration: .3s;
+  }
+  .mobile-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.102);
+    text-decoration: none;
+    transition-duration: .3s;
+  }
+  .mobile-nav a.active {
+    color: #feca57;
+  }
+  .mobile-nav.active {
+    transform: translateX(0%);
+    transition-duration: .3s;
   }
 }
 

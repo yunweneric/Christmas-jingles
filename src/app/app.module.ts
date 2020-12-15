@@ -11,6 +11,7 @@ import { YoutubeonlyComponent } from './youtubeonly/youtubeonly.component';
 import { PnfComponent } from './pnf/pnf.component';
 import { HomeComponent } from './home/home.component';
 import {HttpClientModule} from '@angular/common/http'
+import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,8 @@ import {HttpClientModule} from '@angular/common/http'
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    NoopAnimationsModule,
     AppRoutingModule,
     HttpClientModule
 

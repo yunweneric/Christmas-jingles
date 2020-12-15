@@ -162,6 +162,15 @@ h3 {
     max-height: 200px;
     min-height: 200px;
   }
+  .song-info .song-title {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  .song-info .song-duration {
+    color: #feca57;
+    padding-right: .6rem;
+    font-size: .8rem;
+  }
 
 }
 
