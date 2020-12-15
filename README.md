@@ -1,4 +1,4 @@
-# ChrismasVoices
+# ChristmasVoices
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
 
@@ -28,9 +28,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Contribution to the project
 
-We are opened to contributions. You can contribute by adding a new chrismas lyric to the database.json file
+We are opened to contributions. You can contribute by adding a new christmas lyric to the database.json file
 
-[Contibution guide](https://github.com/yunweneric/Christmas-jingles/blob/master/contribution.md)
+[Contribution guide](https://github.com/yunweneric/Christmas-jingles/blob/master/contribution.md)
 
 ## Further help
 
