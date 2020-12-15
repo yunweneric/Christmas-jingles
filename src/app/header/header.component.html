@@ -27,9 +27,9 @@
             </a></li>
         </ul>
     </nav>
-    <div class="search-icon">
-        <img src="../../assets/icons/search-thiner.svg" alt="" (click)="toggleSearch()">
-        <div class="p" [class.active]="toggleSearchBar">Search</div>
+    <div class="search-icon" (click)="toggleSearch()">
+        <img src="../../assets/icons/search-thiner.svg" alt="">
+        <div class="p">Search</div>
     </div>
 </header>
 <nav class="mobile-nav" [class.active]="toggleMobileNav">
@@ -48,4 +48,11 @@
         </a></li>
     </ul>
 </nav>
+
+<div class="search-section"  [class.active]="toggleSearchBar">
+    <div class="search-top">
+        <img class="back-arrow" src="../../assets/icons/right-arrow.svg" alt="" (click)="toggleSearch()">
+    </div>
+    <input type="text" name="" id="" placeholder="Search a carol">
+</div>
 
