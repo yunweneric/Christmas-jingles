@@ -15,8 +15,6 @@ export class YoutubeonlyComponent implements OnInit {
     this.video.getdata().subscribe(data => {
       this.collection = data
       console.log(data);
-
-
     })
   }
 
