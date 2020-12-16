@@ -1,7 +1,7 @@
-<p>youtubeonly works!</p>
-<p *ngFor = "let item of collection">{{item}}</p>
-<!-- <li *ngFor="let item of collection">{{item}}</li> -->
-<!-- <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src={https://www.youtube.com/embed/ + collection.item.id.videoId} allowfullscreen></iframe>
+<!-- <div class="container">
+  <p>youtubeonly works!</p>
+  <p *ngFor="let item of collection">{{'https://www.youtube.com/embed/' + item.id.videoId}}</p>
+  <iframe *ngFor="let item of collection" [src]="'https://www.youtube.com/embed/' + item.id.videoId" width="420"
+    height="315">
+  </iframe>
 </div> -->
-<!-- <iframe *ngFor = "let item of collection.item.id.videoId" src="item" frameborder="0"></iframe> -->
