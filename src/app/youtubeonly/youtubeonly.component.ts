@@ -29,9 +29,8 @@ export class YoutubeonlyComponent implements OnInit {
         //   console.log(this.videos)
         // }
         this.collection = data;
-        console.log(this.collection.items);
-        // console.log(this.videos);
-        this.url1 = "https://www.youtube.com/embed"
+        console.log(this.collection);
+        // this.url1 = "https://www.youtube.com/embed"
 
       }
     );
