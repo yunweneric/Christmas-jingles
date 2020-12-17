@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { YoutubeapiService } from '../youtubeapi.service';
 import { SearchInterface } from '../search-interface';
+import {DomSanitizer} from '@angular/platform-browser'
 
 @Component({
   selector: 'app-youtubeonly',
@@ -12,8 +13,9 @@ export class YoutubeonlyComponent implements OnInit {
   videos: any;
   url1: any
   url2: any
+  // item: any
 
-  constructor(private video: YoutubeapiService) {}
+  constructor(private video: YoutubeapiService, private sanitizer: DomSanitizer) {}
 
   ngOnInit(): void {
     this.video.getVideos('christmas songs').subscribe(
@@ -30,9 +32,12 @@ export class YoutubeonlyComponent implements OnInit {
         // }
         this.collection = data;
         console.log(this.collection);
-        // this.url1 = "https://www.youtube.com/embed"
+        this.url1 = "https://www.youtube.com/embed"
 
       }
     );
+  }
+  getembedUrl(item){
+    return this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/" + item)
   }
 }
