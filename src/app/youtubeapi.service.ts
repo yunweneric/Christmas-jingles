@@ -24,4 +24,11 @@ export class YoutubeapiService {
         map((response: any) => response.items)
       );
   }
+  getlatestVideos(query: string): Observable <any> {
+    const url = `${this.API_URL}?q=${query}&key=${this.API_TOKEN}&part=snippet&type=video&maxResults=1`;
+    return this.http.get(url)
+      .pipe(
+        map((response: any) => response.items)
+      );
+  }
 }
