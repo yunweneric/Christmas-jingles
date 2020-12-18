@@ -97,7 +97,7 @@ header .desktop-nav {
 }
 .desktop-nav li a.active {
   background-color: rgba(255, 255, 255, 0.102);
-  color: #feca57;
+  /* color: #feca57; */
 }
 .desktop-nav li a.active:hover::after {
   background-color: transparent;

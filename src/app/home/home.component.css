@@ -17,9 +17,10 @@ iframe{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  margin-bottom: 2rem;
+  border-radius: 20px;
+  /* border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px; */
+  margin: 2rem 0;
 }
 .home-hero-overlay {
   width: 100%;
@@ -131,6 +132,9 @@ h3 {
   padding-right: 1rem;
 }
 
+iframe {
+  border-radius: 20px;
+}
 
 
 
