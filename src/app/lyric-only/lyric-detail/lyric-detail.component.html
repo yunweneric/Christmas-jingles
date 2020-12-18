@@ -1,12 +1,16 @@
-<!-- <div class="container" *ngFor = 'let item of collection'>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea velit sint deserunt consectetur sit enim beatae sed, cupiditate dicta, delectus, blanditiis excepturi ad earum in! Dolor quibusdam nobis nulla magni!</p>
-    <p>{{item.title}}</p>
-
-
-
-
-</div> -->
-
-<div class="container" *ngFor = 'let item of collection.lyric'>
-    <p>{{item}}</p>
+<div class="container-fluid">
+    <div class="container">
+        <div class="data">
+            <div class="details">
+                <h1>{{title}}</h1>
+                <p>Author: {{author}}</p>
+            </div>
+            
+            <div class="container" *ngFor = 'let item of collection.lyric'>
+                <p class="lyric">{{item}}</p>
+            </div>
+        </div>
+       
+    </div>
+   
 </div>
