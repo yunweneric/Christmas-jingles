@@ -222,6 +222,7 @@ header .desktop-nav {
 .back-arrow {
   transform: rotate(180deg);
   width: 40px;
+  cursor: pointer;  
   transition-duration: .3s;
 }
 .back-arrow:hover {

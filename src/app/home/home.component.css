@@ -45,7 +45,7 @@ main {
   left: 0;
   top: 100%;
   transform: translateY(-100%);
-  /* background: linear-gradient(90deg, #fec9579a, transparent); */
+  background: linear-gradient(90deg, #fec9579a, transparent);
   width: 50%;
   border-bottom-left-radius: 15px;
   color: #fff;
