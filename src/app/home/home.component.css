@@ -6,6 +6,10 @@ main {
   padding-top: 100px;
   padding-bottom: 40px;
 }
+iframe{
+  width: 100%;
+  height: 65vh;
+}
 .home-hero {
   width: 100%;
   height: 65vh;
