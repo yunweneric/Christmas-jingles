@@ -19,8 +19,8 @@ export class YoutubeonlyComponent implements OnInit {
 
   ngOnInit(): void {
     this.video.getVideos('christmas songs').subscribe(
-      // lista => {
-      //   for (let element of lista["items"]) {
+      // list => {
+      //   for (let element of listo["items"]) {
       //   this.videos.push(element)
       //   }
 
