@@ -21,6 +21,10 @@
                 <span><img src="../../assets/icons/musical-note.svg" alt=""></span>
                 <p>Now Playing...</p>
             </a></li>
+            <li><a routerLink="videoonly" class="now-playing-link">
+                <span><img src="../../assets/icons/musical-note.svg" alt=""></span>
+                <p>Videos</p>
+            </a></li>
         </ul>
     </nav>
     <div class="search-icon" (click)="toggleSearch()">
@@ -49,6 +53,6 @@
     <div class="search-top">
         <img class="back-arrow" src="../../assets/icons/right-arrow.svg" alt="" (click)="toggleSearch()">
     </div>
-    <input type="text" name="" id="" placeholder="Search a carol">
+    <input type="text" name="" id="" #input placeholder="Search a carol">
 </div>
 

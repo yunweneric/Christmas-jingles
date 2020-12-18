@@ -1,1 +1,10 @@
-<p>youtubeonly works!</p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col" *ngFor="let item of collection">
+          <iframe [src]="getembedUrl(item.id.videoId)" width="420" height="315">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
