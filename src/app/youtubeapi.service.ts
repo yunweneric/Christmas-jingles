@@ -51,7 +51,7 @@ export class YoutubeapiService {
       );
   }
   getlatestVideos(query: string): Observable <any> {
-    const url = `${this.API_URL}?q=${query}&key=${this.API_TOKEN2}&part=snippet&type=video&maxResults=1`;
+    const url = `https://raw.githubusercontent.com/yunweneric/Christmas-jingles/master/youtube1data.json`;
     return this.http.get(url)
       .pipe(
         map((response: any) => response.items)
