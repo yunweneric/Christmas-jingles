@@ -94,38 +94,10 @@
       ]
     },
     {
-      "title": "The little drummer boy",
-      "author": "Harry Simeone",
-      "lyrics": [
-        "Come, they told me pa-rum pum pum pum",
-        "Our newborn King to see, pa-rum pum pum pum",
-        "Our finest gifts we bring pa-rum pum pum pum",
-        "To lay before the King pa-rum pum pum pum",
-        "Rum pum pum pum, rum pum pum pum",
-        "So to honor Him pa-rum pum pum pum",
-        "When we come",
-        "Baby Jesus, pa-rum pum pum pum",
-        "I am a poor boy too, pa-rum pum pum pum",
-        "I have no gift to bring pa-rum pum pum pum",
-        "That's fit to give our King pa- rum pum pum pum",
-        "Rum pum pum pum, rum pum pum pum",
-        "Shall I play for you, pa-rum pum pum pum",
-        "On my drum?",
-        "Mary nodded pa-rum pum pum pum",
-        "The Ox and Lamb kept time pa-rum pum pum pum",
-        "I played my drum for Him pa-rum pum pum pum",
-        "I played my best for Him pa -rum pum pum pum",
-        "Rum pum pum pum, rum pum pum pum",
-        "Then He smiled at me pa-rum pum pum pum",
-        "Me and my drum",
-        "Me and my drum"
-      ]
-    },
-    {
       "id": 3,
       "title": "O Little Town Of Bethlehem",
       "author": "Philips Brooks",
-      "lyrics": [
+      "lyric": [
         "Oh little town of Bethlehem, how still we see thee lie",
         "Above thy deep and dreamless sleep the silent stars go by",
         "Yet in thy dark streets shineth, the everlasting light",
@@ -144,7 +116,7 @@
       "id": 4,
       "title": "Angels,from the realms of Glory ",
       "author": " James Montgomery",
-      "lyrics": [
+      "lyric": [
         "Angels from the realms of glory,",
         "Wing your flight o'er all the earth;",
         "Ye who sang creation's story,",
@@ -179,7 +151,7 @@
       "id": 5,
       "title": " I Heard the Bells on Christmas Day",
       "author": " Henry Wadsworth Longfellow ",
-      "lyrics": [
+      "lyric": [
         "I heard the bells on Christmas day",
         "Their old familiar carols play",
         "And mild and sweet their songs repeat",
@@ -486,7 +458,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "let it snow",
       "author": "John Green",
       "lyric": [
@@ -507,6 +479,35 @@
         "But as long as you'd love me so",
         "Let it snow, let it snow, and snow",
         "When we finally kiss…"
+      ]
+    },
+    {
+      "id":16,
+      "title": "The little drummer boy",
+      "author": "Harry Simeone",
+      "lyric": [
+        "Come, they told me pa-rum pum pum pum",
+        "Our newborn King to see, pa-rum pum pum pum",
+        "Our finest gifts we bring pa-rum pum pum pum",
+        "To lay before the King pa-rum pum pum pum",
+        "Rum pum pum pum, rum pum pum pum",
+        "So to honor Him pa-rum pum pum pum",
+        "When we come",
+        "Baby Jesus, pa-rum pum pum pum",
+        "I am a poor boy too, pa-rum pum pum pum",
+        "I have no gift to bring pa-rum pum pum pum",
+        "That's fit to give our King pa- rum pum pum pum",
+        "Rum pum pum pum, rum pum pum pum",
+        "Shall I play for you, pa-rum pum pum pum",
+        "On my drum?",
+        "Mary nodded pa-rum pum pum pum",
+        "The Ox and Lamb kept time pa-rum pum pum pum",
+        "I played my drum for Him pa-rum pum pum pum",
+        "I played my best for Him pa -rum pum pum pum",
+        "Rum pum pum pum, rum pum pum pum",
+        "Then He smiled at me pa-rum pum pum pum",
+        "Me and my drum",
+        "Me and my drum"
       ]
     }
   ]

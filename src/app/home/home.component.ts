@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
         // this.collection = this.collection[this.num1]
 
         // console.log(this.collection[this.num1]);
-        console.log(this.collection);
+        // console.log(this.collection);
         
         // this.url1 = "https://www.youtube.com/embed"
       }
