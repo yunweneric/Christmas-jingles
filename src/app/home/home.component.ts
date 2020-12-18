@@ -17,11 +17,11 @@ export class HomeComponent implements OnInit {
       (data) => {
         this.collection = data;
         this.num1 = Math.ceil(Math.random() * 100);
-        console.log(this.num1);
-        this.collection = this.collection[this.num1]
+        // console.log(this.num1);
+        // this.collection = this.collection[this.num1]
 
         // console.log(this.collection[this.num1]);
-        console.log(this.collection[0]);
+        console.log(this.collection);
         
         // this.url1 = "https://www.youtube.com/embed"
       }

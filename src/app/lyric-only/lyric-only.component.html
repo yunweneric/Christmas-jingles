@@ -31,15 +31,10 @@
 
               <!--First slide-->
               <div class="carousel-item active">
-                <div class="row" *ngFor = 'let item of collection'>
+                <div class="row" *ngFor = 'let item of collection.songs'>
                   
                   <button class="btn btn-success" routerLink = "/details/{{item.id}}">{{item.title}}</button>
-                  <!-- <button class="btn btn-success">Silent Night</button>
-                  <button class="btn btn-success">Silent Night</button>
-                  <button class="btn btn-success">Silent Night</button>
-                  <button class="btn btn-success">Silent Night</button>
-                  <button class="btn btn-success">Silent Night</button>
-                  <button class="btn btn-success">Silent Night</button> -->
+                 
                 </div>
 
               </div>
