@@ -198,5 +198,11 @@ h3 {
   background-color: #feca57;
   transition-duration: .3s;
 }
+#p{
+  color: #fff;
+  font: 200px;
+  margin: 10px;
+
+}
 
 /* end scrollbar ******************************* */

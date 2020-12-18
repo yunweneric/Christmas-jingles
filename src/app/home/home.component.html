@@ -19,7 +19,15 @@
     <h3>Just for you</h3>
     <div class="stack">
       <div class="song-card">
-        <div class="song-img" style="background: url(../../assets/images/high-resolution-christmas-desktop-wallpaper-04.jpg);"></div>
+        
+        <div class="song-img" style="background: url(../../assets/images/high-resolution-christmas-desktop-wallpaper-04.jpg);">
+          <div class="row">
+            <div class="col" *ngFor="let item of collection">
+              <iframe [src]="getembedUrl(item.id.videoId)" frameborder ="0" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
         <div class="song-info">
           <div class="song-name">
             <div class="song-title">This is song title</div>
