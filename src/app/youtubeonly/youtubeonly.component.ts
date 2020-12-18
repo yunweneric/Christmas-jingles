@@ -15,12 +15,12 @@ export class YoutubeonlyComponent implements OnInit {
     this.video.getVideos('christmas songs').subscribe(
       (data) => {
         this.collection = data;
-        console.log(this.collection[0]);
+        console.log(this.collection);
         // this.url1 = "https://www.youtube.com/embed"
       }
     );
   }
-  getembedUrl(item){
+  getembedUrl(item: string){
     return this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/" + item)
   }
 }

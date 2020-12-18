@@ -13,4 +13,7 @@ export class LyricServiceService {
   getdata(){
     return this.http.get(this.url);
   }
+  getcurrentlyric(id: any){
+    return this.http.get(`${this.url}/${id}`)
+  }
 }

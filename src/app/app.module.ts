@@ -14,6 +14,7 @@ import {HttpClientModule} from '@angular/common/http'
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { SliderComponent } from './slider/slider.component';
 import { LyricDetailComponent } from './lyric-only/lyric-detail/lyric-detail.component';
+import { LyricDetailsFinalComponent } from './lyric-details-final/lyric-details-final.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LyricDetailComponent } from './lyric-only/lyric-detail/lyric-detail.com
     PnfComponent,
     HomeComponent,
     SliderComponent,
-    LyricDetailComponent
+    LyricDetailComponent,
+    LyricDetailsFinalComponent
   ],
   imports: [
     BrowserModule,

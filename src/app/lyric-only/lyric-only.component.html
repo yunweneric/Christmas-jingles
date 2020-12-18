@@ -33,7 +33,7 @@
               <div class="carousel-item active">
                 <div class="row" *ngFor = 'let item of collection'>
                   
-                  <button class="btn btn-success">{{item.title}}</button>
+                  <button class="btn btn-success" routerLink = "/details/{{item.id}}">{{item.title}}</button>
                   <!-- <button class="btn btn-success">Silent Night</button>
                   <button class="btn btn-success">Silent Night</button>
                   <button class="btn btn-success">Silent Night</button>
@@ -93,3 +93,4 @@
   </div>
 
 </div>
+<!-- <app-lyric-detail [data] = "collection"></app-lyric-detail> -->
