@@ -10,30 +10,13 @@ import {DomSanitizer} from '@angular/platform-browser'
 })
 export class YoutubeonlyComponent implements OnInit {
   collection: any;
-  videos: any;
-  url1: any
-  url2: any
-  // item: any
-
   constructor(private video: YoutubeapiService, private sanitizer: DomSanitizer) {}
-
   ngOnInit(): void {
     this.video.getVideos('christmas songs').subscribe(
-      // list => {
-      //   for (let element of listo["items"]) {
-      //   this.videos.push(element)
-      //   }
-
       (data) => {
-        // for (let element of data) {
-        //   this.videos.push(element);
-        //   this.collection = data;
-        //   console.log(this.videos)
-        // }
         this.collection = data;
-        console.log(this.collection);
-        this.url1 = "https://www.youtube.com/embed"
-
+        console.log(this.collection[0]);
+        // this.url1 = "https://www.youtube.com/embed"
       }
     );
   }

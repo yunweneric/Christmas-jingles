@@ -12,6 +12,8 @@ import { PnfComponent } from './pnf/pnf.component';
 import { HomeComponent } from './home/home.component';
 import {HttpClientModule} from '@angular/common/http'
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { SliderComponent } from './slider/slider.component';
+import { LyricDetailComponent } from './lyric-only/lyric-detail/lyric-detail.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform
     YoutubeAndLyricComponent,
     YoutubeonlyComponent,
     PnfComponent,
-    HomeComponent
+    HomeComponent,
+    SliderComponent,
+    LyricDetailComponent
   ],
   imports: [
     BrowserModule,
