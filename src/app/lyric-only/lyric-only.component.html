@@ -31,21 +31,22 @@
 
               <!--First slide-->
               <div class="carousel-item active">
-                <div class="row">
+                <div class="row" *ngFor = 'let item of collection'>
+                  
+                  <button class="btn btn-success">{{item.title}}</button>
+                  <!-- <button class="btn btn-success">Silent Night</button>
                   <button class="btn btn-success">Silent Night</button>
                   <button class="btn btn-success">Silent Night</button>
                   <button class="btn btn-success">Silent Night</button>
                   <button class="btn btn-success">Silent Night</button>
-                  <button class="btn btn-success">Silent Night</button>
-                  <button class="btn btn-success">Silent Night</button>
-                  <button class="btn btn-success">Silent Night</button>
+                  <button class="btn btn-success">Silent Night</button> -->
                 </div>
 
               </div>
               <!--/.First slide-->
 
               <!--Second slide-->
-              <div class="carousel-item">
+              <!-- <div class="carousel-item">
                 <div class="row">
                   <button class="btn btn-success">Silent Night</button>
                   <button class="btn btn-success">Silent Night</button>
@@ -55,11 +56,11 @@
                   <button class="btn btn-success">Silent Night</button>
                   <button class="btn btn-success">Silent Night</button>
                 </div>
-              </div>
+              </div> -->
               <!--/.Second slide-->
 
               <!--Third slide-->
-              <div class="carousel-item">
+              <!-- <div class="carousel-item">
 
                 <div class="row">
                   <button class="btn btn-success">Silent Night</button>
@@ -71,7 +72,7 @@
                   <button class="btn btn-success">Silent Night</button>
                 </div>
 
-              </div>
+              </div> -->
               <!--/.Third slide-->
 
             </div>
