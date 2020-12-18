@@ -1,19 +1,17 @@
 <div class="stack-1">
-    <h3>Just for you</h3><div class="container">
-      <div class="row">
-        <div class="col" *ngFor="let item of collection">
-          <div class="song-card">
-            <iframe [src]="getembedUrl(item.id.videoId)" frameborder ="0" width="340" height="230"></iframe>
-            <div class="song-info">
-              <div class="song-name">
-                <div class="song-title">{{item.snippet.title}}</div>
-                <!-- <div class="song-author">{{item.snippet.description}}</div> -->
-              </div>
-              <!-- <div class="song-duration">03:24</div> -->
+    <h3>Just for you</h3>
+    <div class="flex-stack">
+      <div class="col" *ngFor="let item of collection">
+        <div class="song-card">
+          <iframe [src]="getembedUrl(item.id.videoId)" frameborder ="0" width="340" height="230"></iframe>
+          <div class="song-info">
+            <div class="song-name">
+              <div class="song-title">{{item.snippet.title}}</div>
+              <!-- <div class="song-author">{{item.snippet.description}}</div> -->
             </div>
+            <!-- <div class="song-duration">03:24</div> -->
           </div>
         </div>
       </div>
-    
     </div>
 </div>
