@@ -13,7 +13,7 @@ export class SliderComponent implements OnInit {
   constructor(private video: YoutubeapiService, private sanitizer: DomSanitizer) { }
 
   ngOnInit(): void {
-    this.video.getlatestVideos('christmas songs').subscribe(
+    this.video.getlatestVideos('top christmas songs').subscribe(
       (data) => {
         this.collection = data;
         this.num1 = Math.ceil(Math.random() * 100);
@@ -22,15 +22,12 @@ export class SliderComponent implements OnInit {
 
         // console.log(this.collection[this.num1]);
         console.log(this.collection[0]);
-        
-        // this.url1 = "https://www.youtube.com/embed"
-      }
+        }
     );
     
   }
   getembedUrl(item: string){
     let data = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/" + item +"?rel=1&showinfo=0&autohide=1&controls=1&autoplay=1&loop=0")
-    // console.log(data);
 
     return data
     

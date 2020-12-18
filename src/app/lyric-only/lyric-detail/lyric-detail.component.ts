@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import {ActivatedRoute} from '@angular/router'
+import {LyricServiceService} from 'src/app/lyric-service.service'
 
 @Component({
   selector: 'app-lyric-detail',
@@ -6,10 +8,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lyric-detail.component.css']
 })
 export class LyricDetailComponent implements OnInit {
+  // @Input() data;
 
-  constructor() { }
+  constructor(private router:ActivatedRoute, private http: LyricServiceService ) { }
 
   ngOnInit(): void {
-  }
+    console.log(this.router.snapshot.params.id);
+    this.http.getcurrentlyric(this.router.snapshot.params.id).subscribe(data =>{
+      console.log(data);
+      
+    })
+    
+  } 
 
 }
