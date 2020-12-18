@@ -2,8 +2,7 @@
   <div class="home-hero">
     <div class="row">
       <div class="col" *ngFor="let item of collection">
-        <iframe [src]="getembedUrl(item.id.videoId)" frameborder ="0" allowfullscreen>
-        </iframe>
+        <iframe [src]="getembedUrl(item.id.videoId)" frameborder ="1" allowfullscreen></iframe>
       </div>
     </div>
     <!-- <div class="home-hero-overlay">
