@@ -19,8 +19,5 @@ export class LyricOnlyComponent implements OnInit {
     })
 
   }
-  // getdatafull(item){
-  //   console.log(item)
-  // }
 
 }
