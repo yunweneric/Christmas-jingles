@@ -31,7 +31,7 @@
 
               <!--First slide-->
               <div class="carousel-item active">
-                <div class="row" *ngFor = 'let item of collection.songs'>
+                <div class="row" *ngFor = 'let item of collection'>
                   
                   <button class="btn btn-success" routerLink = "/details/{{item.id}}">{{item.title}}</button>
                  

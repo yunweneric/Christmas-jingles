@@ -1,4 +1,9 @@
 .container{
     background-color: #fff;
-    height: 100vh;
+    color: #000;
+    height: 60vh;
+    margin-top: 100px;
+}
+p{
+    color: #ff0000;
 }

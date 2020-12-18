@@ -9,13 +9,16 @@ import {LyricServiceService} from 'src/app/lyric-service.service'
 })
 export class LyricDetailComponent implements OnInit {
   // @Input() data;
+  collection: any;
 
   constructor(private router:ActivatedRoute, private http: LyricServiceService ) { }
 
   ngOnInit(): void {
     console.log(this.router.snapshot.params.id);
     this.http.getcurrentlyric(this.router.snapshot.params.id).subscribe(data =>{
-      console.log(data);
+      this.collection = data
+      console.log(this.collection.lyric);
+
       
     })
     
