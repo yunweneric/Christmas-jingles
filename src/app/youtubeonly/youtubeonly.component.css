@@ -1,9 +1,57 @@
+.container {
+  margin-top: 100px;
+}
+.col {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+
 p{
   color:#fff
-
 }
 
 video{
-border:1px solid #fff;
 color: #fff;
+}
+
+/* styling the song card */
+.song-card {
+  width: 300px;
+  /* background-color: green; */
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  border-radius: 15px;
+  transition-duration: .3s;
+  /* padding: .5rem; */
+}
+.song-card:hover {
+  background-color: rgba(255, 255, 255, 0.102);
+  transition-duration: .3s;
+}
+.song-info {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin: .5rem;
+}
+.song-info .song-title {
+  color: #fff;
+  font-size: 1.1rem;
+}
+.song-info .song-author {
+  color: #8395a7;
+}
+.song-info .song-duration {
+  color: #feca57;
+  padding-right: 1rem;
+}
+
+iframe {
+  width: 100% !important;
+  border-radius: 20px;
+  position: relative;
+  transform: scale(.95);
 }
