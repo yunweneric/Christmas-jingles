@@ -8,6 +8,7 @@ import { LyricServiceService } from '../lyric-service.service'
 })
 export class LyricOnlyComponent implements OnInit {
   collection: any
+  // item: string
 
   constructor(private lyric: LyricServiceService) { }
 
@@ -18,5 +19,8 @@ export class LyricOnlyComponent implements OnInit {
     })
 
   }
+  // getdatafull(item){
+  //   console.log(item)
+  // }
 
 }
