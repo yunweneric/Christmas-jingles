@@ -95,7 +95,7 @@
   {
     "title": "The little drummer boy",
     "author": "Harry Simeone",
-    "lyrics": [
+    "lyric": [
       "Come, they told me pa-rum pum pum pum",
       "Our newborn King to see, pa-rum pum pum pum",
       "Our finest gifts we bring pa-rum pum pum pum",
@@ -124,7 +124,7 @@
     "id": 3,
     "title": "O Little Town Of Bethlehem",
     "author": "Philips Brooks",
-    "lyrics": [
+    "lyric": [
       "Oh little town of Bethlehem, how still we see thee lie",
       "Above thy deep and dreamless sleep the silent stars go by",
       "Yet in thy dark streets shineth, the everlasting light",
@@ -143,7 +143,7 @@
     "id": 4,
     "title": "Angels,from the realms of Glory ",
     "author": " James Montgomery",
-    "lyrics": [
+    "lyric": [
       "Angels from the realms of glory,",
       "Wing your flight o'er all the earth;",
       "Ye who sang creation's story,",
@@ -178,7 +178,7 @@
     "id": 5,
     "title": " I Heard the Bells on Christmas Day",
     "author": " Henry Wadsworth Longfellow ",
-    "lyrics": [
+    "lyric": [
       "I heard the bells on Christmas day",
       "Their old familiar carols play",
       "And mild and sweet their songs repeat",
