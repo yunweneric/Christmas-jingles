@@ -27,7 +27,7 @@
     ]
   },
   {
-     "id": 2,
+    "id": 2,
     "title": "With You This Christmas",
     "author": "Why Don't We Just",
     "lyric": [
@@ -92,7 +92,7 @@
       "This Christmas"
     ]
   },
-
+  
   {
     "id": 3,
     "title": "O Little Town Of Bethlehem",
@@ -458,7 +458,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 15,
     "title": "let it snow",
     "author": "John Green",
     "lyric": [
@@ -481,62 +481,33 @@
       "When we finally kiss…"
     ]
   },
-   {
-  "id": 17,
-  "title": "The little drummer boy",
-  "author": "Harry Simeone",
-  "lyrics": [
-    "Come, they told me pa-rum pum pum pum",
-    "Our newborn King to see, pa-rum pum pum pum",
-    "Our finest gifts we bring pa-rum pum pum pum",
-    "To lay before the King pa-rum pum pum pum",
-    "Rum pum pum pum, rum pum pum pum",
-    "So to honor Him pa-rum pum pum pum",
-    "When we come",
-    "Baby Jesus, pa-rum pum pum pum",
-    "I am a poor boy too, pa-rum pum pum pum",
-    "I have no gift to bring pa-rum pum pum pum",
-    "That's fit to give our King pa- rum pum pum pum",
-    "Rum pum pum pum, rum pum pum pum",
-    "Shall I play for you, pa-rum pum pum pum",
-    "On my drum?",
-    "Mary nodded pa-rum pum pum pum",
-    "The Ox and Lamb kept time pa-rum pum pum pum",
-    "I played my drum for Him pa-rum pum pum pum",
-    "I played my best for Him pa -rum pum pum pum",
-    "Rum pum pum pum, rum pum pum pum",
-    "Then He smiled at me pa-rum pum pum pum",
-    "Me and my drum",
-    "Me and my drum"
-  ]
-},
-{
-  "id": 18,
-  "title":"Santa Claus Is Coming to Town",
-  "author": "Michael Bublé",
-  "lyrics":[
-    "You better watch out",
-    "You better not cry",
-    "You better not pout",
-    "I'm telling you why",
-    "Santa Claus is coming to town",
-    "He's making a list,",
-    "He's checking it twice,", 
-    "He's gonna find out who's naughty or nice",
-    "Santa Claus is coming to town",
-    "He sees you when you're sleeping",
-    "And he knows when you're awake",
-    "He knows if you've been bad or good",
-    "So be good for goodness sake",
-    "You better watch out!",
-    "You better not cry",
-    "You better not pout, I'm telling you why",
-    "Cause Santa Claus is coming to town",
-    "Oh let's go!",
-    "He sees you when you're sleeping",
-    "And he knows when you're awake",
-    "He knows if you've been bad or good",
-    "So be good for goodness sake"
-  ]
-}
+  {
+    "id":16,
+    "title": "The little drummer boy",
+    "author": "Harry Simeone",
+    "lyric": [
+      "Come, they told me pa-rum pum pum pum",
+      "Our newborn King to see, pa-rum pum pum pum",
+      "Our finest gifts we bring pa-rum pum pum pum",
+      "To lay before the King pa-rum pum pum pum",
+      "Rum pum pum pum, rum pum pum pum",
+      "So to honor Him pa-rum pum pum pum",
+      "When we come",
+      "Baby Jesus, pa-rum pum pum pum",
+      "I am a poor boy too, pa-rum pum pum pum",
+      "I have no gift to bring pa-rum pum pum pum",
+      "That's fit to give our King pa- rum pum pum pum",
+      "Rum pum pum pum, rum pum pum pum",
+      "Shall I play for you, pa-rum pum pum pum",
+      "On my drum?",
+      "Mary nodded pa-rum pum pum pum",
+      "The Ox and Lamb kept time pa-rum pum pum pum",
+      "I played my drum for Him pa-rum pum pum pum",
+      "I played my best for Him pa -rum pum pum pum",
+      "Rum pum pum pum, rum pum pum pum",
+      "Then He smiled at me pa-rum pum pum pum",
+      "Me and my drum",
+      "Me and my drum"
+    ]
+  }
 ]

@@ -15,7 +15,7 @@ export class LyricOnlyComponent implements OnInit {
   ngOnInit(): void {
     this.lyric.getdata().subscribe(data => {
       this.collection = data;
-      console.log(this.collection)
+      // console.log(this.collection)
     })
 
   }
