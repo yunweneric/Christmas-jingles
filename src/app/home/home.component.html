@@ -1,0 +1,147 @@
+<main>
+  <div class="home-hero">
+    <div class="row">
+      <div class="col" *ngFor="let item of collection">
+        <iframe [src]="getembedUrl(item.id.videoId)" frameborder ="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <!-- <div class="home-hero-overlay">
+      <div class="preview-song" style="background: url(../../assets/images/high-resolution-christmas-desktop-wallpaper-03.jpg);"></div>
+      <div class="preview-song-title">
+        <h1>Jingle Bells</h1>
+        <p class="song-author">Unknown Author</p>
+      </div>
+    </div> -->
+  </div>
+
+  <!-- Slider component -->
+  <app-slider></app-slider>
+
+
+
+  <!-- <div class="stack-2">
+    <h3>Top Carols</h3>
+    <div class="flex-stack">
+      <div class="song-card">
+        <div class="song-img" style="background: url(../../assets/images/high-resolution-christmas-desktop-wallpaper-24.jpg);"></div>
+        <div class="song-info">
+          <div class="song-name">
+            <div class="song-title">This is song title</div>
+            <div class="song-author">Unknown Author</div>
+          </div>
+          <div class="song-duration">03:24</div>
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="song-img" style="background: url(../../assets/images/snowman-1882635_1920.jpg);"></div>
+        <div class="song-info">
+          <div class="song-name">
+            <div class="song-title">This is song title</div>
+            <div class="song-author">Unknown Author</div>
+          </div>
+          <div class="song-duration">03:24</div>
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="song-img" style="background: url(../../assets/images/high-resolution-christmas-desktop-wallpaper-30.jpg);"></div>
+        <div class="song-info">
+          <div class="song-name">
+            <div class="song-title">This is song title</div>
+            <div class="song-author">Unknown Author</div>
+          </div>
+          <div class="song-duration">03:24</div>
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="song-img" style="background: url(../../assets/images/high-resolution-christmas-desktop-wallpaper-37.jpg);"></div>
+        <div class="song-info">
+          <div class="song-name">
+            <div class="song-title">This is song title</div>
+            <div class="song-author">Unknown Author</div>
+          </div>
+          <div class="song-duration">03:24</div>
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="song-img" style="background: url(../../assets/images/high-resolution-christmas-desktop-wallpaper-38.jpg);"></div>
+        <div class="song-info">
+          <div class="song-name">
+            <div class="song-title">This is song title</div>
+            <div class="song-author">Unknown Author</div>
+          </div>
+          <div class="song-duration">03:24</div>
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="song-img" style="background: url(../../assets/images/high-resolution-christmas-desktop-wallpaper-41.jpg);"></div>
+        <div class="song-info">
+          <div class="song-name">
+            <div class="song-title">This is song title</div>
+            <div class="song-author">Unknown Author</div>
+          </div>
+          <div class="song-duration">03:24</div>
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="song-img" style="background: url(../../assets/images/high-resolution-christmas-desktop-wallpaper-48.jpg);"></div>
+        <div class="song-info">
+          <div class="song-name">
+            <div class="song-title">This is song title</div>
+            <div class="song-author">Unknown Author</div>
+          </div>
+          <div class="song-duration">03:24</div>
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="song-img" style="background: url(../../assets/images/high-resolution-christmas-desktop-wallpaper-49.jpg);"></div>
+        <div class="song-info">
+          <div class="song-name">
+            <div class="song-title">This is song title</div>
+            <div class="song-author">Unknown Author</div>
+          </div>
+          <div class="song-duration">03:24</div>
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="song-img" style="background: url(../../assets/images/decorating-christmas-tree-2999722_1280.jpg);"></div>
+        <div class="song-info">
+          <div class="song-name">
+            <div class="song-title">This is song title</div>
+            <div class="song-author">Unknown Author</div>
+          </div>
+          <div class="song-duration">03:24</div>
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="song-img" style="background: url(../../assets/images/wallpaper.png);"></div>
+        <div class="song-info">
+          <div class="song-name">
+            <div class="song-title">This is song title</div>
+            <div class="song-author">Unknown Author</div>
+          </div>
+          <div class="song-duration">03:24</div>
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="song-img" style="background: url(../../assets/images/high-resolution-christmas-desktop-wallpaper-04.jpg);"></div>
+        <div class="song-info">
+          <div class="song-name">
+            <div class="song-title">This is song title</div>
+            <div class="song-author">Unknown Author</div>
+          </div>
+          <div class="song-duration">03:24</div>
+        </div>
+      </div>
+      <div class="song-card">
+        <div class="song-img" style="background: url(../../assets/images/high-resolution-christmas-desktop-wallpaper-04.jpg);"></div>
+        <div class="song-info">
+          <div class="song-name">
+            <div class="song-title">This is song title</div>
+            <div class="song-author">Unknown Author</div>
+          </div>
+          <div class="song-duration">03:24</div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</main>

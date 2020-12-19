@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <div class="container">
+    <h1 class="text-center top-lyric">Top Lyrics</h1>
+    <div class="row">
+      <div class="row1 col-lg-6" *ngFor='let item of collection'>
+  
+        <div class="clicker"  routerLink="/details/{{item.id}}">
+          <div class="image">
+            <img src="assets/icons/icons8-playlist-90 (1).png" alt="">
+    
+          </div>
+          <div class="right">
+            <p class="button">
+              {{item.title}}
+            </p>
+            <p class="author1">{{item.author}}</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="second">
+      <!-- <img src="assets/images/pexels-any-lane-5727909 (1).jpg" alt=""> -->
+    </div>
+  </div>
+</div>

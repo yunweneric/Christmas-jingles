@@ -1,18 +1,62 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-success">
-    <a class="navbar-brand" href="#">Christmas Jingles</a>
-    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+<header>
+    <div class="brand-logo">
+        <p>Christmas-Jingles</p>
+        <div class="hamburger" (click)="toggleClass()">
+            <span class="ham-1" [class.active]="toggleMobileNav"></span>
+            <span class="ham-2" [class.active]="toggleMobileNav"></span>
+            <span class="ham-3" [class.active]="toggleMobileNav"></span>
+        </div>
     </div>
+    <nav class="desktop-nav">
+        <ul>
+            <li><a routerLink="home" class="home-link active">
+                <span><img src="../../assets/icons/home.svg" alt=""></span>
+                <p>Home</p>
+            </a></li>
+            <li><a routerLink="lyriconly" class="library-link">
+                <span><img src="../../assets/icons/playlist.svg" alt=""></span>
+                <p>Library</p>
+            </a></li>
+            <!-- <li><a routerLink="" class="now-playing-link">
+                <span><img src="../../assets/icons/musical-note.svg" alt=""></span>
+                <p>Now Playing...</p>
+            </a></li>
+            <li><a routerLink="videoonly" class="now-playing-link">
+                <span><img src="../../assets/icons/musical-note.svg" alt=""></span>
+                <p>Videos</p>
+            </a></li> -->
+        </ul>
+    </nav>
+    <div class="search-icon" (click)="toggleSearch()">
+        <img src="../../assets/icons/search-thiner.svg" alt="">
+        <div class="p">Search</div>
+    </div>
+</header>
+<nav class="mobile-nav" [class.active]="toggleMobileNav">
+    <ul>
+        <li><a routerLink="home" class="home-link active" (click)="toggleClass()">
+            <span><img src="../../assets/icons/home (copy)yellow.svg" alt=""></span>
+            <p>Home</p>
+        </a></li>
+        <li><a routerLink="lyriconly" class="library-link" (click)="toggleClass()">
+            <span><img src="../../assets/icons/playlist.svg" alt=""></span>
+            <p>Library</p>
+        </a></li>
+        <!-- <li><a routerLink="" class="now-playing-link" (click)="toggleClass()">
+            <span><img src="../../assets/icons/musical-note.svg" alt=""></span>
+            <p>Now Playing...</p>
+        </a></li>
+        <li><a routerLink="videoonly" class="now-playing-link">
+            <span><img src="../../assets/icons/musical-note.svg" alt=""></span>
+            <p>Videos</p>
+        </a></li> -->
+    </ul>
 </nav>
+
+<div class="search-section"  [class.active]="toggleSearchBar">
+    <div class="search-top">
+        <img class="back-arrow" src="../../assets/icons/right-arrow.svg" alt="" (click)="toggleSearch()">
+    </div>
+    <input type="text" name="" id="" #input placeholder="Search a carol">
+</div>
+
